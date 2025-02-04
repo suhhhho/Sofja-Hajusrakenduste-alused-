@@ -1,4 +1,13 @@
-Lesson
+Lesson 04.02
+Programming languag Vm (visual machine), library, socket/HTTP
+TPC/IP transport its like IP
+IP -Internal protocol, is used to connect one computer to other
+(HTTP)
+Windows SDK socket, connecting libraries
+Windows SDK driver fir network cars
+SDK-software development kit(set of tools)
+Network card (physicasl microchip)
 
+Today we made a code, yappy. We used Ip, port, library, classes and chatgpt
 
 
