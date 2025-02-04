@@ -1,5 +1,5 @@
 Lesson 04.02
-Programming languag Vm (visual machine), library, socket/HTTP
+Programming languag(JavaScript) Vm (visual machine), library, socket/HTTP
 TPC/IP transport its like IP
 IP -Internal protocol, is used to connect one computer to other
 (HTTP)
