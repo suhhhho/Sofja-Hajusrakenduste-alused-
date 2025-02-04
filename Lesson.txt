@@ -4,7 +4,7 @@ TPC/IP transport its like IP
 IP -Internal protocol, is used to connect one computer to other
 (HTTP)
 Windows SDK socket, connecting libraries
-Windows SDK driver fir network cars
+Windows SDK driver for network card
 SDK-software development kit(set of tools)
 Network card (physicasl microchip)
 
