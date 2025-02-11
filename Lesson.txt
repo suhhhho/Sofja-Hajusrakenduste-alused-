@@ -11,3 +11,14 @@ Network card (physicasl microchip)
 Today we made a code, yappy. We used Ip, port, library, classes and chatgpt
 
 
+Lesson 11.02
+Matrix,list,array,queue,dict.
+HTTP- has two parts - Client and server
+Request-client    response-server
+HTTP client library, server library
+
+Methods: GET, POST, DELETE, OPTIONS,....
+Status codes: 2xx -succes
+3xx -redirect
+4xx-client errors
+5xx-server errors
