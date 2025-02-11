@@ -21,4 +21,7 @@ Methods: GET, POST, DELETE, OPTIONS,....
 Status codes: 2xx -succes
 3xx -redirect
 4xx-client errors
-5xx-server errors
+5xx-server errors                                                                                                                                                                                                                      
+
+Header and body
+Accept-a data we want to recieve back.
