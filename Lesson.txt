@@ -34,4 +34,3 @@ Representational State Transfer (REST) is a software architecture that imposes c
 
 Url parts: http://username:password@hostname.9090/path?arg=value#anchor
 http/https - protocol
-username 
