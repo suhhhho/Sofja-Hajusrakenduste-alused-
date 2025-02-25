@@ -27,3 +27,11 @@ Status codes: 2xx -succes
 Accept-a data we want to recieve back.
 
 Lesson 25.02
+Response: status, headers, body
+Example: http://yay.url/?action=delete
+Request: method(POST, GET, DELETE,... ==REST), headers, body
+Representational State Transfer (REST) is a software architecture that imposes conditions on how an API should work.
+
+Url parts: http://username:password@hostname.9090/path?arg=value#anchor
+http/https - protocol
+username 
