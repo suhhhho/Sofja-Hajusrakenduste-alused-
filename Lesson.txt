@@ -34,3 +34,32 @@ Representational State Transfer (REST) is a software architecture that imposes c
 
 Url parts: http://username:password@hostname.9090/path?arg=value#anchor
 http/https - protocol
+
+29.04
+How someone can attack:
+XSS Cross site scripting - unsecured inputs in forms, public forms, reviews, comments, bio, username
+                          <script> clean html in asp.net
+
+SQL injection- ´SELECT * FROM products WHERE name = '%${req.query.search}%'´
+                "SELECT * FROM products WHERE name = '%car'; UPDATE user SET
+                password= '' WHERE role 'admin' --%'"
+                search="car''; UPDATE users SET password '''' WHERE 
+                role=''admin'' --"
+
+                db.execute(
+                ´SELECT * FROM products WHERE name = '%?%' AND createdat > ?´,
+                [req.query.search, req.query.start]
+                )
+
+NB! Frameworks are different and working differently
+
+Brute force, both password and directory traversing
+How to protect:
+Rate limiting plugin/middleware
+IP based rate limiting, 1000 login requests per 1 minute
+
+32-64 char in the link
+
+Misconfigurations
+CORS
+Cookie/token 
